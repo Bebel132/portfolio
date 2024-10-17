@@ -6,12 +6,6 @@
     flex-direction: row;
 }
 
-@media screen and (max-width: 900px) {
-    .about {
-        flex-direction: column-reverse;
-    }
-}
-
 .about-texts {
     max-width: 560px;
     width: 100%;
@@ -20,4 +14,14 @@
 
 .about-texts h2 {
     margin: 2rem 0 1rem 0;
+}
+
+@media screen and (max-width: 900px) {
+    .about {
+        flex-direction: column-reverse;
+    }
+
+    .about-texts {
+        max-width: unset;
+    }
 }

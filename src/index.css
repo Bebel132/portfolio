@@ -76,3 +76,9 @@ button:hover {
   border-color: var(--cor-azul-cla);
   color: var(--cor-branco);
 }
+
+@media screen and (max-width: 900px) {
+  section {
+    width: 100%;
+  }
+}
