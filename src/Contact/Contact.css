@@ -1,0 +1,21 @@
+section:nth-last-child(1) {
+    width: 100%;
+    background-color: #1E1E1E;
+    min-height: unset;
+}
+
+.contact {
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    margin-right: 1rem;
+}

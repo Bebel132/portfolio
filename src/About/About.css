@@ -1,0 +1,23 @@
+.about {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 900px) {
+    .about {
+        flex-direction: column-reverse;
+    }
+}
+
+.about-texts {
+    max-width: 560px;
+    width: 100%;
+    text-align: justify;
+}
+
+.about-texts h2 {
+    margin: 2rem 0 1rem 0;
+}
