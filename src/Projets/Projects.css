@@ -22,9 +22,15 @@
 }
 
 .projeto img {
-    width: 40%;
+    width: 28rem;
     height: 100%;
     border-radius: 10px 0 0 10px;
+    filter: grayscale(100%);
+    transition: .2s;
+}
+
+.projeto img:hover {
+    filter: grayscale(0);
 }
 
 .projeto-desc {
@@ -64,6 +70,7 @@ a:hover {
 
     .projeto img {
         width: 100%;
+        filter: grayscale(0);
     }
 
     .projeto-desc {
