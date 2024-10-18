@@ -9,7 +9,7 @@ const projetosArr = [
     {
         img: jscrud,
         titulo: 'CRUD Simples',
-        texto: 'Projeto desenvolvido com o objetivo de criar uma aplicação CRUD (Create, Read, Update, Delete) simples, focada em operações básicas de manipulação de dados. Utilizando arrays para armazenar e gerenciar as informações, e explorando a ferramenta de localStorage dos navegadores para persistência de dados.',
+        texto: 'Projeto desenvolvido com o objetivo de criar uma aplicação CRUD (Create, Read, Update, Delete) simples, focada em operações básicas de manipulação de dados. Utilizando arrays para armazenar e gerenciar as informações, e explorando a ferramenta de localStorage dos navegadores para persistência de dados.',
         linkproj: 'https://bebel132.github.io/CRUD/',
         linkrepo: 'https://github.com/Bebel132/CRUD'
     },

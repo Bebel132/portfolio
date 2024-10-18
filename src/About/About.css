@@ -23,5 +23,16 @@
 
     .about-texts {
         max-width: unset;
+        text-align: left;
+    }
+
+    .about-texts h2 {
+        margin: 1rem 0 .5rem 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .about img {
+        width: 100%;
     }
 }
