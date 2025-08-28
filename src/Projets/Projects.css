@@ -34,15 +34,11 @@
 }
 
 .projeto-desc {
-    height: 18rem;
     padding: 1rem 1.5rem 1rem 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
-
-.projeto-desc .texto {
-    margin-top: -2rem;
+    gap: 2rem;
 }
 
 .repo {

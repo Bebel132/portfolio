@@ -3,7 +3,7 @@ import './Projects.css'
 import jscrud from '.././assets/jscrud.jpg'
 import adopet from '.././assets/adopet.png'
 import OpenLibraryHub from '.././assets/OpenLibraryHub.png'
-import AlunosAPI from '.././assets/AlunosAPI.png'
+import AnnyStore from '.././assets/AnnyStore.png'
 
 const projetosArr = [
     {
@@ -28,11 +28,11 @@ const projetosArr = [
         linkrepo: 'https://github.com/1ukidev/OpenLibraryHub'
     },
     {
-        img: AlunosAPI,
-        titulo: 'AlunosAPI',
-        texto: 'O projeto AlunosAPI foi desenvolvido com o objetivo de estudar os conceitos de uma REST API, por isso foi escrito uma documentação sobre todo o processo de desenvolvimento para ser utilizado como guia posteriormente. Ele implementa todas as operações do CRUD (Create, Read, Update, Delete) e é estruturado utilizando C# com o framework .NET. Este projeto serve como uma excelente prática para entender a construção e funcionamento de APIs RESTful, além de explorar as capacidades do .NET para desenvolvimento backend.',
+        img: AnnyStore,
+        titulo: "Anny's Store",
+        texto: 'O projeto AnnyStore foi desenvolvido com o objetivo de estudar vários conceitos de uma REST API e como consumir ela. O projeto funciona como uma lojinha online, onde tem as operações de login e cadastro para autenticação via cookies, ações de adicionar e remover do carrinho, além de uma página para visualização dos produtos contendo paginações e filtros. A API implementa todas as operações CRUD e é estruturado em C# com o framework .NET. Este projeto serve como uma excelente prática para entender a construção de uma API e o consumo dela por uma aplicação React.',
         linkproj: 'https://wood-drip-4cf.notion.site/API-React-e3fbc7770dc44ebfbacc66c81f6631a8',
-        linkrepo: 'https://github.com/Bebel132/AlunosAPI'
+        linkrepo: 'https://github.com/Bebel132/anny-s-store'
     },
 ]
 
