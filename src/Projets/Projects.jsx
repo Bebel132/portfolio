@@ -3,7 +3,7 @@ import './Projects.css'
 import jscrud from '.././assets/jscrud.jpg'
 import adopet from '.././assets/adopet.png'
 import OpenLibraryHub from '.././assets/OpenLibraryHub.png'
-import AnnyStore from '.././assets/AnnyStore.png'
+import AnnyStore from '.././assets/annyStore.png'
 
 const projetosArr = [
     {
