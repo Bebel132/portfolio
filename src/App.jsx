@@ -7,10 +7,10 @@ function App() {
 
   return (
     <>
-      <About></About>
-      <Skills></Skills>
-      <Projects></Projects>
-      <Contact></Contact>
+      <About />
+      <Skills />
+      <Projects />
+      <Contact />
     </>
   )
 }
