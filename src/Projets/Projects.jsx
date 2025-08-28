@@ -31,7 +31,6 @@ const projetosArr = [
         img: AnnyStore,
         titulo: "Anny's Store",
         texto: 'O projeto AnnyStore foi desenvolvido com o objetivo de estudar vários conceitos de uma REST API e como consumir ela. O projeto funciona como uma lojinha online, onde tem as operações de login e cadastro para autenticação via cookies, ações de adicionar e remover do carrinho, além de uma página para visualização dos produtos contendo paginações e filtros. A API implementa todas as operações CRUD e é estruturado em C# com o framework .NET. Este projeto serve como uma excelente prática para entender a construção de uma API e o consumo dela por uma aplicação React.',
-        linkproj: 'https://wood-drip-4cf.notion.site/API-React-e3fbc7770dc44ebfbacc66c81f6631a8',
         linkrepo: 'https://github.com/Bebel132/anny-s-store'
     },
 ]
@@ -50,12 +49,11 @@ export const Projects = () => {
                                 <h2 className="subtitulo">{projeto.titulo}</h2>
                                 <p className="texto">{projeto.texto}</p>
                                 <div className="btns">
-                                    {
-                                        
-                                    }
-                                    <a href={projeto.linkproj} target='_blank'>
-                                        <button>Ver Projeto</button>
-                                    </a>
+                                    {projeto.linkproj && (
+                                        <a href={projeto.linkproj} target='_blank'>
+                                            <button>Ver Projeto</button>
+                                        </a>
+                                    )}
                                     <a href={projeto.linkrepo} target='_blank'>
                                     <button className='repo'>&lt;/ Ver Repositório &gt;</button>
                                     </a>

@@ -41,8 +41,12 @@
     gap: 2rem;
 }
 
+.btns {
+    display: flex;
+    gap: 1rem;
+}
+
 .repo {
-    margin-left: 1rem;
     background-color: #007EA7;
     border-color: #007EA7;
 }
