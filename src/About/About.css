@@ -16,6 +16,10 @@
     margin: 2rem 0 1rem 0;
 }
 
+.about img {
+    width: 35%;
+}
+
 @media screen and (max-width: 900px) {
     .about {
         flex-direction: column-reverse;
