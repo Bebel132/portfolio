@@ -30,8 +30,8 @@
         text-align: left;
     }
 
-    .about-texts h2 {
-        margin: 1rem 0 .5rem 0;
+    .about-texts p {
+        margin: 1rem 0;
     }
 }
 

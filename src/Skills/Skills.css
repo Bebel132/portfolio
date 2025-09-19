@@ -49,6 +49,7 @@
 
 .skill svg {
     transition: .2s;
+    width: 100px;
 }
 
 .skill:hover svg {
