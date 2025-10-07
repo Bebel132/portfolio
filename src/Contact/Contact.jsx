@@ -3,6 +3,7 @@ import './Contact.css'
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import EmailIcon from '@mui/icons-material/Email'
 import LinkedInIcon from "@mui/icons-material/LinkedIn"
 
 export const Contact = () => {
@@ -15,10 +16,8 @@ export const Contact = () => {
                         <GitHubIcon className='icon' fontSize='large'/>
                     </a>
                 </li>
-                <li>
-                    <a href="https://www.instagram.com/bebenio132/" about='_blank'>
-                        <InstagramIcon className='icon' fontSize='large'/>
-                    </a>
+                <li title="emanuel2005batista@gmail.com" onClick={() => navigator.clipboard.writeText("emanuel2005batista@gmail.com").then(() => alert('email copiado! ✅'))}>
+                    <EmailIcon className='icon' fontSize='large'/>
                 </li>
                 <li>
                     <a href="https://www.linkedin.com/in/emanuel-ferreira-8170a1245/" target='_blank'>
