@@ -52,7 +52,6 @@ section {
   width: 1080px;
   min-height: 470px;
   margin: 0 auto;
-  padding: 1rem;
 }
 
 button {
@@ -85,6 +84,7 @@ button:hover {
 @media screen and (max-width: 900px) {
   section {
     width: 100%;
+    padding: 0 4rem;
   }
 
   .titulo {

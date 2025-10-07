@@ -49,6 +49,11 @@
 
 .skill svg {
     transition: .2s;
+    width: 100px;
+}
+
+.skill svg path {
+    fill: #007EA7;
 }
 
 .skill svg path {
