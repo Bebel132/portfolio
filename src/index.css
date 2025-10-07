@@ -50,7 +50,7 @@ html, body, #root {
 
 section {
   width: 1080px;
-  min-height: 50vh;
+  min-height: 470px;
   margin: 0 auto;
   padding: 1rem;
 }

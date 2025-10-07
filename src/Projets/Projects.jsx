@@ -1,24 +1,23 @@
-import React from 'react'
 import './Projects.css'
-import jscrud from '.././assets/jscrud.jpg'
-import adopet from '.././assets/adopet.png'
 import OpenLibraryHub from '.././assets/OpenLibraryHub.png'
 import AnnyStore from '.././assets/annyStore.png'
+import Blog from '.././assets/Blog.png'
+import Mapa from '.././assets/Mapa.png'
 
 const projetosArr = [
     {
-        img: jscrud,
-        titulo: 'CRUD Simples',
-        texto: 'Projeto desenvolvido com o objetivo de criar uma aplicação CRUD (Create, Read, Update, Delete) simples, focada em operações básicas de manipulação de dados. Utilizando arrays para armazenar e gerenciar as informações, e explorando a ferramenta de localStorage dos navegadores para persistência de dados.',
-        linkproj: 'https://bebel132.github.io/CRUD/',
-        linkrepo: 'https://github.com/Bebel132/CRUD'
+        img: Blog,
+        titulo: 'Blog',
+        texto: 'O projeto Blog foi desenvolvido com o objetivo de criar uma aplicação nos moldes de um CMS, implementando todas as operações CRUD (Create, Read, Update, Delete). Utilizei HTML, CSS e JavaScript no frontend, enquanto o backend foi construído com Flask em Python. Além da lógica de autenticação e gerenciamento de posts, também trabalhei no deploy da API e da aplicação web, garantindo sua hospedagem e funcionamento online.',
+        linkproj: 'https://bebel132.github.io/blog-web/',
+        linkrepo: 'https://github.com/Bebel132/blog-web'
     },
     {
-        img: adopet,
-        titulo: 'Adopet',
-        texto: 'O projeto Adopet é um desafio da Alura que visa treinar conceitos de CSS e responsividade, com o objetivo de aperfeiçoar técnicas de CSS ao mesmo tempo que constrói uma interface bonita e agradável.',
-        linkproj: 'https://bebel132.github.io/adopet/',
-        linkrepo: 'https://github.com/Bebel132/adopet'
+        img: Mapa,
+        titulo: 'Mapa Web',
+        texto: 'O projeto Mapa Web foi criado para explorar técnicas de web scraping e visualização interativa de dados. A aplicação apresenta informações sobre o acesso à internet no Brasil, extraídas de fontes públicas e exibidas de forma dinâmica. O frontend foi desenvolvido com HTML, CSS e JavaScript, enquanto o backend utiliza Flask para processar e servir os dados. Também realizei o deploy da API e da aplicação, tornando o sistema acessível via web.',
+        linkproj: 'https://bebel132.github.io/mapa-web/',
+        linkrepo: 'https://github.com/Bebel132/mapa-web'
     },
     {
         img: OpenLibraryHub,

@@ -1,56 +1,68 @@
 import React, { useState } from 'react'
 import './Skills.css'
-import { Html5Plain, Css3Plain, JavascriptPlain, ReactOriginal, PhpPlain, NodejsPlain, CsharpPlain, AzuresqldatabasePlain } from 'devicons-react';
+import { Html5Plain, Css3Plain, JavascriptPlain, ReactOriginal, PhpPlain, NodejsPlain, CsharpPlain, FlaskOriginal, DjangoPlain, AzuresqldatabasePlain } from 'devicons-react';
 
 const skillsArr = [
     {
-        icone: <Html5Plain color='#007EA7' size="80"/>,
+        icone: <Html5Plain size="80"/>,
         titulo: 'HTML5',
-        texto: 'A espinha dorsal de qualquer página web. Ele estrutura o conteúdo, definindo títulos, parágrafos, links, imagens, etc.',
+        texto: 'A espinha dorsal de qualquer página web. Ele estrutura o conteúdo, definindo títulos, parágrafos, links, imagens e muito mais.',
         tipo: 'front'
     },
     {
-        icone: <Css3Plain color='#007EA7' size="80"/>,
+        icone: <Css3Plain size="80"/>,
         titulo: 'CSS3',
-        texto: 'O que faz sua página web parecer bonita. Ele controla o layout, cores, fontes e outros aspectos visuais.',
+        texto: 'Responsável pela aparência da página. Controla layout, cores, fontes, animações e outros aspectos visuais.',
         tipo: 'front'
     },
     {
-        icone: <JavascriptPlain color='#007EA7' size="80"/>,
+        icone: <JavascriptPlain size="80"/>,
         titulo: 'JavaScript',
-        texto: 'A linguagem de programação que adiciona interatividade às páginas web. Coisas como animações, formulários e conteúdo dinâmicos',
+        texto: 'A linguagem que adiciona interatividade às páginas web. Permite criar animações, validar formulários e atualizar conteúdo dinamicamente.',
         tipo: 'front'
     },
     {
-        icone: <ReactOriginal color='#007EA7' size="80"/>,
+        icone: <ReactOriginal size="80"/>,
         titulo: 'React',
-        texto: 'Uma biblioteca de JavaScript para construir interfaces de usuário. Extremamente popular para criar aplicações web modernas e responsivas.',
+        texto: 'Uma biblioteca JavaScript para construir interfaces de usuário reativas e escaláveis. Muito usada em aplicações SPA (Single Page Applications).',
         tipo: 'front'
     },
-    {
-        icone: <PhpPlain color='#007EA7' size="80"/>,
+        {
+        icone: <PhpPlain size="80"/>,
         titulo: 'PHP',
-        texto: 'Uma linguagem de script do lado do servidor, utilizada principalmente para desenvolver sites dinâmicos e aplicações web.',
+        texto: 'Linguagem de script do lado do servidor, amplamente usada para criar sites dinâmicos e sistemas como WordPress.',
         tipo: 'back'
     },
     {
-        icone: <NodejsPlain color='#007EA7' size="80"/>,
+        icone: <NodejsPlain size="80"/>,
         titulo: 'NodeJS',
-        texto:'Um ambiente de execução JavaScript que permite rodar código JS fora do navegador, geralmente usado para construir backends de aplicações web.',
+        texto: 'Ambiente de execução JavaScript fora do navegador. Ideal para construir APIs, servidores web e aplicações em tempo real.',
         tipo: 'back'
     },
     {
-        icone: <CsharpPlain color='#007EA7' size="80"/>,
+        icone: <CsharpPlain size="80"/>,
         titulo: 'C#',
-        texto:'Uma linguagem de programação desenvolvida pela Microsoft, muito usada em desenvolvimento de aplicativos desktop, web e jogos, especialmente com a plataforma .NET.',
+        texto: 'Linguagem da Microsoft usada para desenvolver aplicações desktop, web e jogos, especialmente com a plataforma .NET.',
         tipo: 'back'
     },
     {
-        icone: <AzuresqldatabasePlain color='#007EA7' size="80"/>,
-        titulo: 'Banco de Dados',
-        texto:'Um banco de dados relacional organiza dados em tabelas conectadas por chaves, permitindo consultas eficientes e integridade dos dados usando SQL.',
+        icone: <FlaskOriginal size="80"/>,
+        titulo: 'Flask',
+        texto: 'Um microframework Python para desenvolvimento web. Simples e flexível, ideal para APIs e aplicações menores.',
         tipo: 'back'
     },
+    {
+        icone: <DjangoPlain size="80"/>,
+        titulo: 'Django',
+        texto: 'Framework Python completo para desenvolvimento web. Oferece segurança, escalabilidade e rapidez na criação de aplicações robustas.',
+        tipo: 'back'
+    },
+    {
+        icone: <AzuresqldatabasePlain size="80"/>,
+        titulo: 'Banco de Dados',
+        texto: 'Um banco de dados relacional organiza dados em tabelas conectadas por chaves, permitindo consultas eficientes e integridade dos dados usando SQL.',
+        tipo: 'back'
+    }
 ]
 
 export const Skills = () => {
