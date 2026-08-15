@@ -23,7 +23,6 @@
 
 .projeto img {
     width: 28rem;
-    height: 100%;
     border-radius: 10px 0 0 10px;
     filter: grayscale(100%);
     transition: .2s;
