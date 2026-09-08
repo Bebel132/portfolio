@@ -1,18 +1,25 @@
 import React, { useState } from 'react'
 import './Skills.css'
-import { Html5Plain, Css3Plain, TypescriptPlain, ReactOriginal, PhpPlain, NodejsPlain, CsharpPlain, FlaskOriginal, DjangoPlain, AzuresqldatabasePlain, AzureOriginal, LinuxPlain, GitPlain } from 'devicons-react';
+import { Html5Plain, Css3Plain, TypescriptPlain, ReactOriginal, PhpPlain, JavascriptPlain, MaterialuiPlain, CsharpPlain, FlaskOriginal, AzuresqldatabasePlain, AzureOriginal, LinuxPlain, GitPlain } from 'devicons-react';
 
 const skillsArr = [
+    // --- FRONTEND ---
     {
         icone: <Html5Plain size="80"/>,
         titulo: 'HTML5',
-        texto: 'Linguagem de marcação utilizada para estruturar páginas e aplicações web, organizando conteúdos como textos, imagens, formulários e elementos semânticos.',
+        texto: 'Linguagem de marcação utilizada para estruturar páginas e aplicações web, organizando conteúdos de forma semântica e acessível.',
         tipo: 'front'
     },
     {
         icone: <Css3Plain size="80"/>,
         titulo: 'CSS3',
-        texto: 'Tecnologia utilizada para estilizar interfaces web, trabalhando com layouts, responsividade, animações, tipografia e adaptação para diferentes dispositivos.',
+        texto: 'Estilização de interfaces web, trabalhando com layouts, responsividade e animações, em conjunto com frameworks como Bootstrap e Tailwind CSS.',
+        tipo: 'front'
+    },
+    {
+        icone: <JavascriptPlain size="80"/>,
+        titulo: 'JavaScript',
+        texto: 'Linguagem essencial para o desenvolvimento web, garantindo interatividade e construção de lógicas dinâmicas no lado do cliente.',
         tipo: 'front'
     },
     {
@@ -28,9 +35,17 @@ const skillsArr = [
         tipo: 'front'
     },
     {
+        icone: <MaterialuiPlain size="80"/>,
+        titulo: 'Material UI',
+        texto: 'Biblioteca de componentes React utilizada para a implementação de interfaces de usuário consistentes e responsivas em plataformas corporativas.',
+        tipo: 'front'
+    },
+
+    // --- BACKEND ---
+    {
         icone: <CsharpPlain size="80"/>,
-        titulo: 'C#',
-        texto: 'Linguagem da plataforma .NET utilizada no desenvolvimento de APIs e aplicações web, incluindo recursos como Entity Framework, Identity e OData.',
+        titulo: 'ASP.NET Core / C#',
+        texto: 'Desenvolvimento de APIs REST, microsserviços e arquitetura modular, integrando recursos como Entity Framework Core e sistemas de autenticação.',
         tipo: 'back'
     },
     {
@@ -40,10 +55,24 @@ const skillsArr = [
         tipo: 'back'
     },
     {
-        icone: <AzuresqldatabasePlain size="80"/>,
-        titulo: 'SQL e Bancos de Dados',
-        texto: 'Experiência com bancos relacionais e consultas SQL, trabalhando com SQL Server, PostgreSQL, MySQL e SQLite.',
+        icone: <PhpPlain size="80"/>,
+        titulo: 'PHP',
+        texto: 'Linguagem utilizada no desenvolvimento e suporte de portais institucionais e sistemas web.',
         tipo: 'back'
+    },
+    {
+        icone: <AzuresqldatabasePlain size="80"/>,
+        titulo: 'Bancos de Dados',
+        texto: 'Modelagem e gestão de dados relacionais com sólida experiência em PostgreSQL, SQL Server, MySQL e SQLite.',
+        tipo: 'back'
+    },
+
+    // --- DEVOPS & CLOUD ---
+    {
+        icone: <AzureOriginal size="80"/>,
+        titulo: 'Microsoft Azure',
+        texto: 'Integração de serviços em nuvem corporativos, incluindo Entra ID (SSO), Microsoft Graph API, Azure Blob Storage e fluxos OAuth 2.0 + PKCE.',
+        tipo: 'devops'
     },
     {
         icone: <LinuxPlain size="80"/>,
@@ -52,18 +81,12 @@ const skillsArr = [
         tipo: 'devops'
     },
     {
-        icone: <AzureOriginal size="80"/>,
-        titulo: 'Azure DevOps',
-        texto: 'Plataforma utilizada para gerenciamento de projetos, repositórios, versionamento de código e automação de processos de desenvolvimento e entrega.',
-        tipo: 'devops'
-    },
-    {
         icone: <GitPlain size="80"/>,
-        titulo: 'Git',
-        texto: 'Sistema de controle de versão utilizado para gerenciamento de código, histórico de alterações e colaboração no desenvolvimento de projetos.',
+        titulo: 'Git e GitHub',
+        texto: 'Sistemas de controle de versão e hospedagem utilizados para gerenciamento de código, histórico de alterações e colaboração em projetos.',
         tipo: 'devops'
     }
-]
+];
 
 export const Skills = () => {
     const [skillType, setSkillType] = useState("front")

@@ -11,7 +11,7 @@ export const About = () => {
               <LaptopIcon fontSize='large'/><br /><br />
               <h1 className="titulo">Emanuel Ferreira</h1>
               <h2 className="subtitulo">Desenvolvedor Web</h2>
-              <p className='texto'>Sou um jovem estudante apaixonado pela área de tecnologia, com formação em TI e cursando Sistemas e Mídias Digitais! Comecei minha jornada em programação focando em tecnologias front-end e, atualmente, estou me aventurando no desenvolvimento back-end, com o objetivo de me tornar um desenvolvedor full-stack!</p>
+              <p className='texto'>Sou um desenvolvedor apaixonado por tecnologia, com formação técnica em Informática e cursando Sistemas e Mídias Digitais na UFC. Comecei minha jornada focado no front-end e, hoje, atuo de ponta a ponta no ciclo de desenvolvimento. Construo desde interfaces modernas e responsivas até integrações sólidas no back-end, sempre priorizando boas práticas e arquitetura segura de software.</p>
             </div>
             <img src={eu} alt="" />
         </div>
