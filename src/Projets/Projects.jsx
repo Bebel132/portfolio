@@ -1,6 +1,5 @@
 import './Projects.css'
 import OpenLibraryHub from '.././assets/OpenLibraryHub.png'
-import AnnyStore from '.././assets/annyStore.png'
 import Blog from '.././assets/Blog.png'
 import Mapa from '.././assets/Mapa.png'
 import Pirambu from '.././assets/pirambu-innovation.png'
